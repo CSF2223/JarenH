@@ -176,6 +176,13 @@ footer {
         height: 90vh;
 }
 
+.heroImage img {
+    border-radius: 6rem;
+    box-shadow: 10px 10px #000;
+    width: 100%;
+    height: auto;
+}
+
 .heroText {
     font-size: 1rem;
 }
@@ -196,6 +203,7 @@ footer {
     flex-wrap: wrap;
     }
     
+
 .projectCard {
     max-width: 20%;
     }

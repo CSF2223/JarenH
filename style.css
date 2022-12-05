@@ -20,7 +20,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #200439;
+    background-color: #562B08;
     color: #fff;
 }
 
@@ -74,14 +74,14 @@ body {
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 700;
-    color: #200439;
+    color: #000000;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
 }
 
 .button:hover {
-    background-color: #361356;
-    color: #c5b356;
+    background-color: #BE8C63;
+    color: #000000;
     transform: scale(1.5);
     /* (150 zoom - note if the zoom is too large, it will go outside of the veiwport) */
 }

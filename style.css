@@ -43,7 +43,7 @@ body {
 }
 
 .heroText {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding-bottom: 2rem;
     text-align: center;
     letter-spacing: 5px;
@@ -86,9 +86,10 @@ body {
     /* (150 zoom - note if the zoom is too large, it will go outside of the veiwport) */
 }
 
-.projectHeader {
+.projectsHeader {
     margin: 1.5rem 3rem;
     text-align: center;
+    padding: 0.5rem;
     letter-spacing: 4px;
 }
 
@@ -167,6 +168,20 @@ footer {
     height: 80vh;
 }
 
+.something {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6;
+}
+
+
+
+
+
+
+
 
 @media (min-width: 800px) {
     .hero {
@@ -196,7 +211,7 @@ footer {
     }
 
 
-.projectGallery {
+.projectsGallery {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -204,7 +219,13 @@ footer {
     }
     
 
+.projectHeader {
+    margin: 1.5rem 3rem;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
 .projectCard {
     max-width: 20%;
-    }
+}
 }

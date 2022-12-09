@@ -168,7 +168,7 @@ footer {
     height: 80vh;
 }
 
-.something {
+.filler {
     display: flex;
     flex-direction: column;
     justify-content: center;
